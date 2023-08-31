@@ -14,8 +14,8 @@
 .nextArrow {
   position: absolute;
   font-weight: medium;
-  font-size: 100px;
-  right: -5vw;
+  font-size: 50px;
+  right: -3vw;
   top: 20vw;
   color: rgb(160, 139, 105);
   cursor: pointer;
@@ -24,8 +24,8 @@
 .prevArrow {
   position: absolute;
   font-weight: medium;
-  font-size: 100px;
-  left: -5vw;
+  font-size: 50px;
+  left: -3vw;
   top: 20vw;
   color: rgb(160, 139, 105);
   cursor: pointer;
