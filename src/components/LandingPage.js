@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import HeroSection from './HeroSection'
 import Slides from './Slides'
+import About from './About'
 
 export default function LandingPage() {
   return (
@@ -9,6 +10,7 @@ export default function LandingPage() {
     <Navbar/>
     <HeroSection/>
     <Slides/>
+    <About/>
     </>
   )
 }

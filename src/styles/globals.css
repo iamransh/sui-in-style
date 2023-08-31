@@ -8,5 +8,29 @@
 }
 
 .slick-list {
-  margin-left: 80px !important;
+  margin-left: 30px !important;
+}
+
+.nextArrow {
+  position: absolute;
+  font-weight: medium;
+  font-size: 100px;
+  right: -5vw;
+  top: 20vw;
+  color: rgb(160, 139, 105);
+  cursor: pointer;
+}
+
+.prevArrow {
+  position: absolute;
+  font-weight: medium;
+  font-size: 100px;
+  left: -5vw;
+  top: 20vw;
+  color: rgb(160, 139, 105);
+  cursor: pointer;
+}
+
+.phone {
+  transform: rotateY(180deg);
 }

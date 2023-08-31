@@ -6,26 +6,20 @@ import slide2 from './Assests/Slides/slide2.jpg'
 import slide3 from './Assests/Slides/slide3.jpg'
 import slide4 from './Assests/Slides/slide4.jpg'
 import slide5 from './Assests/Slides/slide5.jpg'
-import arrow from './Assests/Group17.svg'
-
 
 function SampleNextArrow(props) {
-    const {onClick } = props;
-    return (
-      <Image src={arrow.src} className='nextArrow'
-        onClick={onClick}
-      />
-    );
-  }
-  
+  const {onClick } = props;
+  return (
+    <div onClick={onClick} className='nextArrow'>&gt;</div>
+  );
+}
+
 function SamplePrevArrow(props) {
-    const {onClick } = props;
-    return (
-    <Image src={arrow.src} className='prevArrow'
-        onClick={onClick}
-      />
-    );
-  }
+  const {onClick } = props;
+  return (
+    <div onClick={onClick} className='prevArrow'>&lt;</div>
+  );
+}
 
 export default function Slides() {
     const settings = {
@@ -37,12 +31,12 @@ export default function Slides() {
         slidesToShow: 2,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
+        prevArrow: <SamplePrevArrow />
     };
 
   return (
     <Stack align={'center'} py='30px'>
-        <Box w='95vw'>
+        <Box w='85vw' position='relative'>
             <Slider {...settings}>
             <div>
             <Image alt="" src={slide1.src} w='40vw' h='50vw' />
