@@ -17,7 +17,7 @@ export default function Story() {
         <Stack w='50%' h='100%' justify={'center'} align={'center'}>
             <Stack w='70%' spacing={10}>
                 <Text fontSize={'30px'}>Get to know us</Text>
-                <Text fontSize={'20px'}>Born from lockdown boredom, a housewife's determination led to a thriving boutique in 2020. Crafting elegance, her passion transformed into a successful venture, empowering her to create and inspire.</Text>
+                <Text fontSize={'20px'}>{"Born from lockdown boredom, a housewife's determination led to a thriving boutique in 2020. Crafting elegance, her passion transformed into a successful venture, empowering her to create and inspire."}</Text>
             </Stack>
         </Stack>
     </Flex>

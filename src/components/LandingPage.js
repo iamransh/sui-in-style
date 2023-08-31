@@ -4,6 +4,7 @@ import HeroSection from './HeroSection'
 import Slides from './Slides'
 import About from './About'
 import Story from './Story'
+import Standards from './Standards'
 
 export default function LandingPage() {
   return (
@@ -13,6 +14,7 @@ export default function LandingPage() {
     <Slides/>
     <About/>
     <Story/>
+    <Standards/>
     </>
   )
 }

@@ -5,7 +5,7 @@ import photo from './Assests/about-img.jpg'
 
 export default function About() {
   return (
-    <Flex w='100%' h='80vh' py='20px' bg='gray.100' justify={'center'} align={'center'}>
+    <Flex w='100%' h='80vh' py='20px' bg='rgb(245, 245, 245)' justify={'center'} align={'center'}>
         <Flex w='90%' h='90%' bg='white'>
             <Stack w='60%' h='100%' justify={'center'} align={'center'}>
                 <Stack w='50%' spacing={5}>
