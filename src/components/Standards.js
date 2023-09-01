@@ -4,7 +4,7 @@ import img from './Assests/standard-img-2.jpg'
 
 export default function Standards() {
   return (
-    <Flex w='100%' h='100vh' bg='rgb(245, 245, 245)'>
+    <Flex w='100%' h='90vh' bg='rgb(245, 245, 245)'>
         <Flex>
             <Flex w='50%' h='100%' justify={'flex-end'} align={'center'}>
             <Image mr='50px' src={img.src} alt='' w='550px' h='450px' boxShadow={'-25px 25px 0px 1px black'}/>
