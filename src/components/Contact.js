@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <Flex
       w="100%"
-      h={["70vh"]}
+      h={["100vh", "70vh", "70vh"]}
       bg="rgb(245, 245, 245)"
       justify={"center"}
       align={"center"}
