@@ -6,7 +6,7 @@ export default function Standards() {
   return (
     <Flex
       w="100%"
-      h={["170vh", "75vh", "90vh"]}
+      h={["220vh", "75vh", "90vh"]}
       bg="rgb(245, 245, 245)"
       py={["40px", "40px", "0"]}
     >
