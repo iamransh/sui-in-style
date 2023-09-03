@@ -31,6 +31,39 @@
   cursor: pointer;
 }
 
+@media (max-width:767px){
+  .nextArrow {
+    right: -7vw;
+    top: 40vw;
+  }
+  .prevArrow {
+    left: -7vw;
+    top: 40vw;
+  }
+  .slick-list {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width:480px){
+  .nextArrow {
+    right: -7vw;
+    top: 40vw;
+  }
+  .prevArrow {
+    left: -7vw;
+    top: 40vw;
+  }
+  .slick-list {
+    margin-left: 25px !important;
+  }
+}
+
 .phone {
   transform: rotateY(180deg);
+}
+
+.sidebar__link--active {
+  border-bottom: 3px solid rgb(165, 36, 36);
+  /* color:rgb(165, 36, 36); */
 }
