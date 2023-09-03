@@ -90,7 +90,7 @@ export default function Story() {
       </Modal>
       <Flex
         w="100%"
-        h={["200vh", "70vh", "70vh"]}
+        h={["170vh", "120vh", "70vh"]}
         flexDir={["column", "column", "row"]}
       >
         <Stack
