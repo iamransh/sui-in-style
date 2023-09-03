@@ -44,8 +44,8 @@ export default function Standards() {
             <Text fontSize={"50px"} textAlign={["center", "center", "left"]}>
               National Standards
             </Text>
-            <Text fontSize={["35px", "30px", "25px"]}>Truly Top-Notch</Text>
-            <Text fontSize={["28px", "25px", "20px"]} textAlign={"center"}>
+            <Text fontSize={["28px", "25px", "22px"]}>Truly Top-Notch</Text>
+            <Text fontSize={["22px", "20px", "18px"]} textAlign={"center"}>
               Our boutique offers bespoke designs, impeccable fittings, and
               personalized consultations. With a range of designs and styles, we
               create garments that reflect individuality and sophistication,

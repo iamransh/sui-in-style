@@ -25,13 +25,13 @@ export default function Contact() {
             align={["center", "center", "normal"]}
             pb="40px"
           >
-            <Flex align={"center"} fontSize={["30px", "28px", "25px"]}>
+            <Flex align={"center"} fontSize={["25px"]}>
               <FaBuilding />
               <Text ml="10px"> Address</Text>
             </Flex>
             <Text
               w="70%"
-              fontSize={["25px", "23px", "20px"]}
+              fontSize={["22px", "20px", "18px"]}
               textAlign={["center", "center", "left"]}
             >
               Ashopur, Mustafapur, Patna, Jamsaut, Bihar 801503
@@ -42,13 +42,13 @@ export default function Contact() {
             align={["center", "center", "normal"]}
             pb="40px"
           >
-            <Flex align={"center"} fontSize={["30px", "28px", "25px"]}>
+            <Flex align={"center"} fontSize={["25px"]}>
               <FaPhone className="phone" />
               <Text ml="10px">Contact</Text>
             </Flex>
             <Text
               ml="25px"
-              fontSize={["25px", "23px", "20px"]}
+              fontSize={["22px", "20px", "18px"]}
               textAlign={["center", "center", "left"]}
             >
               9334411614
@@ -59,20 +59,20 @@ export default function Contact() {
             align={["center", "center", "normal"]}
             pb="40px"
           >
-            <Flex align={"center"} fontSize={["30px", "28px", "25px"]}>
+            <Flex align={"center"} fontSize={["25px"]}>
               <FaClock />
               <Text ml="10px">Opening Hours</Text>
             </Flex>
             <Text
               ml="10px"
-              fontSize={["25px", "23px", "20px"]}
+              fontSize={["22px", "20px", "18px"]}
               textAlign={["center", "center", "left"]}
             >
               <b>Everyday - </b>11:30 A.M. - 8:00 P.M.
             </Text>
             <Text
               ml="10px"
-              fontSize={["25px", "23px", "20px"]}
+              fontSize={["22px", "20px", "18px"]}
               textAlign={["center", "center", "left"]}
             >
               <b>Friday - </b>Closed

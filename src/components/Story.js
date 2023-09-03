@@ -104,7 +104,8 @@ export default function Story() {
             <Text
               fontSize={"70px"}
               w={["100%", "350px", "200px"]}
-              py="50px"
+              pt={["30px", "30px", "50px"]}
+              pb={["50px"]}
               borderBottom={"1px solid white"}
               bor
             >
@@ -135,7 +136,7 @@ export default function Story() {
         >
           <Stack w="70%" spacing={10}>
             <Text fontSize={["50px", "40px", "30px"]}>Get to know us</Text>
-            <Text fontSize={["28px", "25px", "20px"]}>
+            <Text fontSize={["22px", "20px", "18px"]}>
               {
                 "Born from lockdown boredom, a housewife's determination led to a thriving boutique in 2020. Crafting elegance, her passion transformed into a successful venture, empowering her to create and inspire."
               }
