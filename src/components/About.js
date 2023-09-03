@@ -110,11 +110,11 @@ export default function About() {
               <Text fontSize={["30px", "28px", "25px"]}>
                 My name is Sangeeta Srivastava
               </Text>
-              <Text fontSize={["22px", "20px", "17px"]}>
+              <Text fontSize={["22px", "20px", "18px"]}>
                 From a bored housewife, now thriving as a successful business
                 owner, crafting dreams for women with passion and precision.
               </Text>
-              <Flex align={"center"} fontSize={["25px", "23px", "20px"]}>
+              <Flex align={"center"} fontSize={["22px", "20px", "18px"]}>
                 <FaPhone className="phone" />
                 <Text ml="10px">9334411614</Text>
               </Flex>
