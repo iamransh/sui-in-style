@@ -78,7 +78,7 @@ export default function About() {
       </Modal>
       <Flex
         w="100%"
-        h="85vh"
+        h="150vh"
         py="20px"
         bg="rgb(245, 245, 245)"
         justify={"center"}
