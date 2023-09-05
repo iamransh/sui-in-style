@@ -46,7 +46,7 @@ export default function Standards() {
             </Text>
             <Text fontSize={["28px", "25px", "22px"]}>Truly Top-Notch</Text>
             <Text fontSize={["22px", "20px", "18px"]} textAlign={"center"}>
-              Our boutique offers bespoke designs, impeccable fittings, and
+              Sui-In-Style offers bespoke designs, impeccable fittings, and
               personalized consultations. With a range of designs and styles, we
               create garments that reflect individuality and sophistication,
               ensuring every client leaves with a perfect fit and a sense of
