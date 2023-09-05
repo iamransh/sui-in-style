@@ -67,3 +67,51 @@
   border-bottom: 3px solid rgb(165, 36, 36);
   /* color:rgb(165, 36, 36); */
 }
+
+.nextArrow2 {
+  position: absolute;
+  font-weight: medium;
+  font-size: 50px;
+  right: -2vw;
+  top: 5vw;
+  color: white;
+  cursor: pointer;
+}
+
+.prevArrow2 {
+  position: absolute;
+  font-weight: medium;
+  font-size: 50px;
+  left: -1.5vw;
+  top: 5vw;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width:767px){
+  .nextArrow2 {
+    right: -4vw;
+    top: 15vw;
+  }
+  .prevArrow2 {
+    left: -4vw;
+    top: 15vw;
+  }
+  .slick-list {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width:480px){
+  .nextArrow2 {
+    right: 0vw;
+    top: 70vw;
+  }
+  .prevArrow2 {
+    left: 0vw;
+    top: 70vw;
+  }
+  .slick-list {
+    margin-left: 25px !important;
+  }
+}

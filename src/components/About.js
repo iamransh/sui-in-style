@@ -79,7 +79,7 @@ export default function About() {
       <Flex
         w="100%"
         h={["150vh", "120vh", "85vh"]}
-        py="20px"
+        py="50px"
         bg="rgb(245, 245, 245)"
         justify={"center"}
         align={"center"}

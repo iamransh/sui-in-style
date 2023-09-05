@@ -11,7 +11,8 @@ export default function HeroSection() {
       justify={"center"}
       align={"center"}
       w="100%"
-      h={["80vw", "60vw", "40vw"]}
+      py={["50px"]}
+      // h={["80vw", "60vw", "40vw"]}
       bg=" rgb(175, 164, 147)"
     >
       <Image
